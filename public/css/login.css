@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(90deg, #0080ff, #388363, #fcf8d6, #0080ff, #388363);
+    background-size: 400% 100%;
+  }
+  
+  .animated-gradient {
+    animation: animateBg 14s linear infinite;
+  }
+  
+  @keyframes animateBg {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
